@@ -1,0 +1,63 @@
+$date
+	Mon Nov 03 23:59:53 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module all_gates_tb $end
+$var wire 1 ! o_or $end
+$var wire 1 " o_not $end
+$var wire 1 # o_nor $end
+$var wire 1 $ o_nand $end
+$var wire 1 % o_exor $end
+$var wire 1 & o_exnor $end
+$var wire 1 ' o_and $end
+$var reg 1 ( a $end
+$var reg 1 ) b $end
+$scope module uut $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 ' o_and $end
+$var wire 1 & o_exnor $end
+$var wire 1 % o_exor $end
+$var wire 1 $ o_nand $end
+$var wire 1 # o_nor $end
+$var wire 1 " o_not $end
+$var wire 1 ! o_or $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0)
+0(
+0'
+1&
+0%
+1$
+1#
+1"
+0!
+$end
+#10000
+1!
+0&
+1%
+0#
+1)
+#20000
+0"
+0)
+1(
+#30000
+1'
+0%
+0$
+1)
+#40000

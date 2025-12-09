@@ -1,0 +1,93 @@
+$date
+	Fri Nov 28 23:07:51 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module parcheck_tb $end
+$var wire 1 ! odd $end
+$var wire 1 " even $end
+$var reg 1 # clk $end
+$var reg 9 $ in [8:0] $end
+$var reg 1 % rst $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 9 & in [8:0] $end
+$var wire 1 % rst $end
+$var reg 4 ' count [3:0] $end
+$var reg 1 " even $end
+$var reg 1 ! odd $end
+$var integer 32 ( i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+b0 '
+bx &
+0%
+bx $
+0#
+0"
+0!
+$end
+#5
+0!
+1#
+#10
+0#
+b101010111 $
+b101010111 &
+1%
+#15
+1!
+b0 '
+b1001 (
+1#
+#20
+0#
+b101110111 $
+b101110111 &
+#25
+0!
+1"
+b0 '
+b1001 (
+1#
+#30
+0#
+b100000111 $
+b100000111 &
+#35
+1!
+0"
+b0 '
+b1001 (
+1#
+#40
+0#
+b101111011 $
+b101111011 &
+#45
+0!
+1"
+b0 '
+b1001 (
+1#
+#50
+0#
+b110000111 $
+b110000111 &
+#55
+b0 '
+b1001 (
+1#
+#60
+0#

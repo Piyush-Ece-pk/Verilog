@@ -1,0 +1,56 @@
+$date
+	Thu Nov 06 23:14:18 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module two_bit_comp_tb $end
+$var wire 1 ! l $end
+$var wire 1 " g $end
+$var wire 1 # e $end
+$var reg 2 $ a [1:0] $end
+$var reg 2 % b [1:0] $end
+$scope module uut $end
+$var wire 2 & a [1:0] $end
+$var wire 2 ' b [1:0] $end
+$var reg 1 # e $end
+$var reg 1 " g $end
+$var reg 1 ! l $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10 '
+b1 &
+b10 %
+b1 $
+0#
+0"
+1!
+$end
+#10000
+1#
+0!
+b11 %
+b11 '
+b11 $
+b11 &
+#20000
+1!
+0#
+b1 $
+b1 &
+#30000
+1!
+b10 %
+b10 '
+b0 $
+b0 &
+#40000

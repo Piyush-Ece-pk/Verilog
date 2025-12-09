@@ -1,0 +1,72 @@
+$date
+	Thu Nov 20 22:31:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sipo_tb $end
+$var wire 4 ! sout [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$var reg 1 $ sin $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 1 $ sin $end
+$var reg 4 % sout [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+x$
+0#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+1$
+1#
+#15
+b1 !
+b1 %
+1"
+#20
+0"
+0$
+#25
+b10 !
+b10 %
+1"
+#30
+0"
+#35
+b100 !
+b100 %
+1"
+#40
+0"
+1$
+#45
+b1001 !
+b1001 %
+1"
+#50
+0"
+0$
+#55
+b10 !
+b10 %
+1"
+#60
+0"

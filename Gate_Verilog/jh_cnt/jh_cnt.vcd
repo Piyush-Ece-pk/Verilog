@@ -1,0 +1,107 @@
+$date
+	Sun Nov 16 22:50:12 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module jh_cnt_tb $end
+$var wire 4 ! q [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var reg 4 $ a [3:0] $end
+$var reg 4 % q [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx %
+b1001 $
+0#
+0"
+bx !
+$end
+#5
+b1001 !
+b1001 %
+1"
+#10
+1#
+0"
+#15
+b10 $
+1"
+#20
+0"
+#25
+b10 !
+b10 %
+b101 $
+1"
+#30
+0"
+#35
+b101 !
+b101 %
+b1011 $
+1"
+#40
+0"
+#45
+b1011 !
+b1011 %
+b110 $
+1"
+#50
+0"
+#55
+b110 !
+b110 %
+b1101 $
+1"
+#60
+0"
+#65
+b1101 !
+b1101 %
+b1010 $
+1"
+#70
+0"
+#75
+b1010 !
+b1010 %
+b100 $
+1"
+#80
+0"
+#85
+b100 !
+b100 %
+b1001 $
+1"
+#90
+0"
+#95
+b1001 !
+b1001 %
+b10 $
+1"
+#100
+0"
+#105
+b10 !
+b10 %
+b101 $
+1"
+#110
+0"
