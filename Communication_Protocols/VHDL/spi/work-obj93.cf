@@ -1,0 +1,7 @@
+v 4
+file . "spi_tb.vhdl" "8c5d38020ac3f2550a16fd60cb5c6b235f907f9a" "20251208183203.860":
+  entity spi_tb at 1( 0) + 0 on 21;
+  architecture behavioral of spi_tb at 8( 107) + 0 on 22;
+file . "spi_tx.vhdl" "ab9907e1928e73ef31923703fe4676e79be4af4d" "20251208183158.744":
+  entity spi_tx at 1( 0) + 0 on 19;
+  architecture behavioral of spi_tx at 21( 462) + 0 on 20;
