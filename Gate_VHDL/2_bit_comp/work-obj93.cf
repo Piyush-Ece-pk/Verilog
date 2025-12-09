@@ -1,0 +1,7 @@
+v 4
+file . "2_bit_comp.vhdl" "b6acba1df576cb01ac659b1bea9557ac8e758973" "20251106182016.040":
+  entity two_bit_comp at 1( 0) + 0 on 25;
+  architecture behavioral of two_bit_comp at 12( 202) + 0 on 26;
+file . "2_bit_comp_tb.vhdl" "e1853be40095d3bddeb1a064501a132f977b2200" "20251106181715.530":
+  entity two_bit_comp_tb at 1( 0) + 0 on 23;
+  architecture behavioral of two_bit_comp_tb at 8( 125) + 0 on 24;

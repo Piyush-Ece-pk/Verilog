@@ -1,0 +1,7 @@
+v 4
+file . "full_sub_tb.vhdl" "dbdfea024577edded89610483520b57b1edb40b9" "20251105175004.918":
+  entity full_sub_tb at 1( 0) + 0 on 13;
+  architecture behavioral of full_sub_tb at 7( 90) + 0 on 14;
+file . "full_sub.vhdl" "1311c6ca5ab4fec8a991478eaa3338e975a7365d" "20251105174051.221":
+  entity full_sub at 1( 0) + 0 on 11;
+  architecture behavioral of full_sub at 11( 162) + 0 on 12;

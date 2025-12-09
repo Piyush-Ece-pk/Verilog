@@ -1,0 +1,124 @@
+$date
+  Sun Nov 16 23:17:39 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module jh_cnt_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 4 # q[3:0] $end
+$scope module uut $end
+$var reg 1 $ clk $end
+$var reg 1 % rst $end
+$var reg 4 & q[3:0] $end
+$var reg 4 ' a[3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+bUUUU #
+0$
+0%
+bUUUU &
+b1001 '
+#5000000
+1!
+b1001 #
+1$
+b1001 &
+#10000000
+0!
+1"
+0$
+1%
+#15000000
+1!
+1$
+b0010 '
+#20000000
+0!
+0$
+#25000000
+1!
+b0010 #
+1$
+b0010 &
+b0101 '
+#30000000
+0!
+0$
+#35000000
+1!
+b0101 #
+1$
+b0101 &
+b1011 '
+#40000000
+0!
+0$
+#45000000
+1!
+b1011 #
+1$
+b1011 &
+b0110 '
+#50000000
+0!
+0$
+#55000000
+1!
+b0110 #
+1$
+b0110 &
+b1101 '
+#60000000
+0!
+0$
+#65000000
+1!
+b1101 #
+1$
+b1101 &
+b1010 '
+#70000000
+0!
+0$
+#75000000
+1!
+b1010 #
+1$
+b1010 &
+b0100 '
+#80000000
+0!
+0$
+#85000000
+1!
+b0100 #
+1$
+b0100 &
+b1001 '
+#90000000
+0!
+0$
+#95000000
+1!
+b1001 #
+1$
+b1001 &
+b0010 '
+#100000000
+0!
+0$

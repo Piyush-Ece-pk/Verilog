@@ -1,0 +1,7 @@
+v 4
+file . "all_gates_tb.vhdl" "2dbdc64d6ea59dfbb4f719cb24c6111a5d6634f3" "20251103175312.484":
+  entity all_gates_tb at 1( 0) + 0 on 13;
+  architecture behavioral of all_gates_tb at 5( 88) + 0 on 14;
+file . "all_gates.vhdl" "c59588ae0daa47feb07f26b28ac7831f73a04f93" "20251103174852.622":
+  entity all_gates at 1( 0) + 0 on 11;
+  architecture behavioral of all_gates at 9( 184) + 0 on 12;

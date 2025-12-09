@@ -1,0 +1,45 @@
+$date
+  Wed Nov 12 23:19:12 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bcd2_7_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 7 " s[6:0] $end
+$scope module uut $end
+$var reg 4 # a[3:0] $end
+$var reg 7 $ s[6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b1111110 "
+b0000 #
+b1111110 $
+#10000000
+b0010 !
+b1101101 "
+b0010 #
+b1101101 $
+#20000000
+b0100 !
+b0110011 "
+b0100 #
+b0110011 $
+#30000000
+b0110 !
+b1011111 "
+b0110 #
+b1011111 $
+#40000000

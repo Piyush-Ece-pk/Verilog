@@ -1,0 +1,7 @@
+v 4
+file . "4_bit_comp_tb.vhdl" "bdbebe4c02be4f147b7ef3f70f0614ce587044fd" "20251106184740.239":
+  entity four_bit_comp_tb at 1( 0) + 0 on 21;
+  architecture behavioral of four_bit_comp_tb at 8( 127) + 0 on 22;
+file . "4_bit_comp.vhdl" "47f838bd11c8353d85766e66d20036d5054c7c78" "20251106184726.683":
+  entity four_bit_comp at 1( 0) + 0 on 19;
+  architecture behavioral of four_bit_comp at 12( 202) + 0 on 20;

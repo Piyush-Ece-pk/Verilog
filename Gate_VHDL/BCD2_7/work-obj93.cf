@@ -1,0 +1,7 @@
+v 4
+file . "BCD2_7_tb.vhdl" "a11b4f1c6d97aaffe214ef1d93c3e8f095382555" "20251112174844.416":
+  entity bcd2_7_tb at 1( 0) + 0 on 13;
+  architecture behavioral of bcd2_7_tb at 8( 113) + 0 on 14;
+file . "BCD2_7.vhdl" "b89d12eb224cd6df9f10ce93a0daea9e0d3b965b" "20251112174342.242":
+  entity bcd2_7 at 1( 0) + 0 on 11;
+  architecture behavioral of bcd2_7 at 12( 203) + 0 on 12;

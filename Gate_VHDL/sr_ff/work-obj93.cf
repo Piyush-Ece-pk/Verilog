@@ -1,0 +1,7 @@
+v 4
+file . "sr_ff.vhdl" "730d77a648825d0203a1c773f15e96528a4bbfbd" "20251113182541.490":
+  entity sr_ff at 1( 0) + 0 on 15;
+  architecture behavioral of sr_ff at 12( 175) + 0 on 16;
+file . "sr_ff_tb.vhdl" "9cbeb8822bc3d7f8052886bfdfa3f11e6b7cb565" "20251113183324.134":
+  entity sr_ff_tb at 1( 0) + 0 on 23;
+  architecture behavioral of sr_ff_tb at 8( 111) + 0 on 24;

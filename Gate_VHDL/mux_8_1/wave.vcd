@@ -1,0 +1,42 @@
+$date
+  Sun Nov 09 00:16:22 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module mux8_1_tb $end
+$var reg 8 ! a[7:0] $end
+$var reg 3 " s[2:0] $end
+$var reg 1 # o $end
+$scope module uut $end
+$var reg 8 $ a[7:0] $end
+$var reg 3 % s[2:0] $end
+$var reg 1 & o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b10101010 !
+b000 "
+0#
+b10101010 $
+b000 %
+0&
+#10000000
+b011 "
+1#
+b011 %
+1&
+#20000000
+b111 "
+b111 %
+#30000000
