@@ -1,0 +1,13 @@
+v 4
+file . "uart_tb.vhdl" "90543307974d16e58cb71a24343891c29a9d0e36" "20251206173949.803":
+  entity uart_tb at 1( 0) + 0 on 17;
+  architecture behavioral of uart_tb at 8( 109) + 0 on 18;
+file . "uart_rx.vhdl" "3ebded32f1963f68d2e61fbb44b4cf239e4a9784" "20251205181314.560":
+  entity uart_rx at 1( 0) + 0 on 13;
+  architecture behavioral of uart_rx at 14( 265) + 0 on 14;
+file . "uart_tx.vhdl" "bdae5f6a74e3d9b13b5bb10af54305c0441c9fbf" "20251205172741.711":
+  entity uart_tx at 1( 0) + 0 on 11;
+  architecture behavioral of uart_tx at 14( 258) + 0 on 12;
+file . "uart_top.vhdl" "8983302001a42dd118470c8ce0fd4712281c3223" "20251206173932.226":
+  entity uart_top at 1( 0) + 0 on 15;
+  architecture behavioral of uart_top at 17( 376) + 0 on 16;
