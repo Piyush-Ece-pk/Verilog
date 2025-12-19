@@ -1,0 +1,10 @@
+# Simulation / waveform files
+*.vcd
+*.wlf
+*.fst
+*.gtkw
+
+# Build / temp
+build/
+output/
+sim/
