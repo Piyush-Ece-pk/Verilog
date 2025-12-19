@@ -1,0 +1,13 @@
+v 4
+file . "i2c_slave.vhdl" "f6ffc04c0c71c5a9f725eaecbe9261b876c5ca69" "20251219172051.954":
+  entity i2c_slave at 1( 0) + 0 on 13;
+  architecture behavioral of i2c_slave at 16( 315) + 0 on 14;
+file . "i2c_master.vhdl" "8c074e90f036cda53e9a5140c8943d9d1ffa27a1" "20251219171913.728":
+  entity i2c_master at 1( 0) + 0 on 11;
+  architecture behavioral of i2c_master at 26( 697) + 0 on 12;
+file . "i2c_top.vhdl" "0bd1a6030247d87224aa63676d60110f46a7e39a" "20251219173016.418":
+  entity i2c_top at 1( 0) + 0 on 17;
+  architecture behavioral of i2c_top at 21( 479) + 0 on 18;
+file . "i2c_tb.vhdl" "62ba9259ae111a59ae26e1fbad20d6051323fbbf" "20251219173409.415":
+  entity i2c_tb at 1( 0) + 0 on 21;
+  architecture behavioral of i2c_tb at 8( 107) + 0 on 22;
