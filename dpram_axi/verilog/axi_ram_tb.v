@@ -7,20 +7,17 @@ parameter img_bytes = 273280;
 reg clk;
 reg rst;
 
-// ----------------- Clock -----------------
 initial begin 
     clk = 0;
     forever #5 clk = ~clk;
 end
 
-// ----------------- Reset -----------------
 initial begin
     rst = 0;
     repeat (10) @(posedge clk);
     rst = 1;
 end
 
-// ----------------- AXI Signals -----------------
 reg [axi_addr_width-1:0] axi_awaddr;
 reg axi_awvalid;
 wire axi_awready;
@@ -39,7 +36,7 @@ wire [1:0] axi_rresp;
 wire axi_rvalid;
 reg axi_rready;
 
-// ----------------- Instantiate AXI + RAM Top -----------------
+
 axi_ram_top uut(
     .clk(clk),
     .rst(rst),
@@ -67,16 +64,13 @@ axi_ram_top uut(
     .ram_b_rdata()
 );
 
-// ----------------- Image Memory -----------------
 reg [7:0] img_mem [0:img_bytes-1];
 
-// ----------------- Load image -----------------
 initial begin
     $readmemh("C:/Users/piyus/vlsi_lab/dpram_axi/verilog/image.hex", img_mem);
     $display("Loaded image.hex into memory (size = %0d bytes)", img_bytes);
 end
 
-// ----------------- AXI Write Task -----------------
 task axi_w32;
     input [31:0] addr; 
     input [31:0] data;
@@ -115,7 +109,6 @@ task axi_w32;
     end
 endtask
 
-// ----------------- AXI Read Task -----------------
 task axi_r32;
     input [31:0] addr;
     output [31:0] data;
@@ -143,7 +136,6 @@ task axi_r32;
     end
 endtask
 
-// ----------------- Test Sequence -----------------
 integer i;
 integer fd;
 reg [31:0] rdata;
@@ -157,20 +149,17 @@ initial begin
     axi_rready  = 0;
 
     wait(rst);
-    repeat (10) @(posedge clk); // give design time to initialize
+    repeat (10) @(posedge clk); 
 
-    // ---- Open dump file (absolute path) ----
     fd = $fopen("C:/Users/piyus/vlsi_lab/dpram_axi/verilog/ram_dump.bin","wb");
 
-    // ---- Write image to RAM in chunks ----
-    chunk_size = 1024; // write 1 KB at a time
+    chunk_size = 1024; 
     for (i = 0; i < img_bytes; i = i + 4) begin
         axi_w32(i, {img_mem[i+3], img_mem[i+2], img_mem[i+1], img_mem[i]});
         if (i % (chunk_size*4) == 0)
             $display("AXI write progress: %0d/%0d bytes", i, img_bytes);
     end
 
-    // ---- Read RAM back in chunks ----
     for (i = 0; i < img_bytes; i = i + 4) begin
         axi_r32(i, rdata);
         $fwrite(fd, "%c", rdata[7:0]);
